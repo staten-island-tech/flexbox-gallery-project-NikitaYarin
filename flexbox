@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I love boxes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="boxes">
+      <header class="text-font">Top 10 boxes!</header>
+      <section>
+        <div>
+          <img src="" alt="" class="box-image" />
+          <p class="box">#1 New World Box</p>
+        </div>
+ 
+        <div>
+          <p class="box">#2 Amazon Box</p>
+          <img src="" alt="" class="box-image" />
+        </div>
+        <div>
+          <p class="box">#3 Boxing Ring</p>
+          <img src="" alt="" class="box-image" />
+        </div>
+        <div>
+          <p class="box">#4 Circle</p>
+          <img src="" alt="" class="box-image2" />
+        </div>
+        <div>
+          <p class="box">#5 Froggy</p>
+          <img src="" alt="" class="box-image2" />
+        </div>
+        <div>
+          <p class="box">#6 Flexbox</p>
+          <img src="" alt="" class="box-image2" />
+        </div>
+        <div>
+          <p class="box">#7 Xi jinping</p>
+          <img src="" alt="" class="box-image3" />
+        </div>
+        <div>
+          <p class="box">#8 Rectangle</p>
+          <img src="" alt="" class="box-image3" />
+        </div>
+        <div>
+          <p class="box">#9 The CCP</p>
+          <img src="" alt="" class="box-image3" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
