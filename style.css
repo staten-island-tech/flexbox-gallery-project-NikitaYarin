@@ -1,0 +1,47 @@
+body,
+html,
+* {
+  padding: 0%;
+  margin: 0%;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.main {
+  font-family: "Gemunu Libre", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+body {
+  background-color: rgb(103, 235, 245);
+}
+
+.text-font {
+  font-family: "Sarabun", sans-serif;
+}
+
+div {
+  padding: 8%;
+  background-color: rgb(174, 102, 241);
+  width: 25%;
+  height: 28%;
+  border: solid black;
+  margin: 5%;
+  box-sizing: content-box;
+  max-width: 5%;
+  max-height: 5%;
+  box-shadow: 10px 5px 5px rgb(134, 11, 165);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  font-size: 45%;
+  margin-bottom: 250%;
+}
