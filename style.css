@@ -18,9 +18,7 @@ body {
  
 .boxes {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+
 }
 .box {
   background-color: #9b3cf5;
@@ -29,6 +27,9 @@ body {
   margin: 1rem;
   box-shadow: 0 0 0.5rem black;
   color: white;
+    flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   
 }
 .box-image {
@@ -37,6 +38,5 @@ body {
   margin-top: 0;
 }
 
-div  {
-  width: 30%;
-}
+
+
