@@ -18,6 +18,9 @@ body {
  
 .boxes {
   display: flex;
+   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 
 }
 .box {
@@ -27,9 +30,7 @@ body {
   margin: 1rem;
   box-shadow: 0 0 0.5rem black;
   color: white;
-    flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+   
   
 }
 .box-image {
