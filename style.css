@@ -25,9 +25,9 @@ body {
 .box {
   background-color: #9b3cf5;
   font-size: 3.5rem;
-  padding: 1rem 1rem 1rem 1rem;
-  margin: 1rem 1rem 1rem 1rem;
-  box-shadow: 5px 5px 5px black;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 0 5 black;
   color: white;
   
 }
