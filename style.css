@@ -30,7 +30,7 @@ body {
   padding: 1rem;
   box-shadow: 0 0 0.5rem black;
   color: white;
-   
+   margin: 1rem;
   
 }
 .box-image {
@@ -39,6 +39,4 @@ body {
   margin-top: 0;
 }
 
-div {
-  margin: 10%
-}
+
