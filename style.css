@@ -10,19 +10,19 @@ html,
 body {
   background-color: rgb(103, 235, 245);
 }
- 
+
 .text-font {
   font-family: "Sarabun", sans-serif;
   font-size: 5rem;
 }
- 
+
 .boxes {
   display: flex;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
-   flex-align: space-between
+  justify-content: space-evenly;
   width: 100%;
-
+  flex-direction: row;
 }
 .box {
   background-color: #9b3cf5;
@@ -30,13 +30,11 @@ body {
   padding: 1rem;
   box-shadow: 0 0 0.5rem black;
   color: white;
-   margin: 1rem;
-  
+  margin: 1rem;
 }
 .box-image {
-  width: 20rem;
-  height: auto;
+  width: 50rem;
+  height: 39rem;
+
   margin-top: 0;
 }
-
-
