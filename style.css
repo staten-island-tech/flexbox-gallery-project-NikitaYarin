@@ -37,3 +37,38 @@ body {
   height: 39rem;
   margin-top: 0;
 }
+
+.new-world {
+  transition: 0.5s;
+}
+.new-world:hover {
+  transform: rotate(90deg);
+}
+
+.amazon {
+  transition: 0.5s;
+}
+.amazon:hover {
+  opacity: 0;
+}
+
+.boxing {
+  transition: 0.5s;
+}
+
+.boxing:hover {
+  filter: brightness(0%);
+}
+
+.circle {
+  transition: 5s;
+}
+.circle:hover {
+  transform: scale(0.1);
+}
+
+.froggy {
+  transition: 2s;
+}
+.froggy:hover {
+  transform: scale(1.3);
