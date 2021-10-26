@@ -72,3 +72,26 @@ body {
 }
 .froggy:hover {
   transform: scale(1.3);
+}
+
+.loading {
+  height: 100%;
+  width: 100%;
+  animation: Load 2.5s;
+  position: absoulute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+@keyframes Load {
+  0% {
+    visibility: visible;
+  }
+  85% {
+    visibility: hidden;
+  }
+  100% {
+    transform: scale(0.05);
+    opacity: 0%;
+  }
+}
