@@ -77,10 +77,10 @@ body {
 .loading {
   height: 100%;
   width: 100%;
-  animation: Load 2.5s;
-  position: absoulute;
   left: 0;
   top: 0;
+  animation: Load 4s;
+  position: absolute;
   visibility: hidden;
 }
 @keyframes Load {
@@ -91,7 +91,6 @@ body {
     visibility: hidden;
   }
   100% {
-    transform: scale(0.05);
     opacity: 0%;
   }
 }
